@@ -1,11 +1,15 @@
 {
   "name": "instagrammer",
-  "version": "1.0.0",
+  "version": "1.0.0.0",
   "description": "NodeJS module NPM package that helps to scrap instagram profile media and useful information.",
   "main": "index.js",
   "author": "Khaled Alam",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khaledalam/instagrammer"
+  },
 }
