@@ -3,7 +3,9 @@
 [![license](https://img.shields.io/github/license/khaledalam/instagrammer.svg)](LICENSE)
 [![npm downloads](https://img.shields.io/npm/dt/instagrammer.svg)](https://www.npmjs.com/package/instagrammer)
 
-NodeJS module NPM package that helps to scrap and load instagram profile media and useful information.
+<img src="https://www.dpreview.com/files/p/articles/8326097332/icon.png" width="300">
+
+NodeJS module NPM package that helps to scrape and load instagram profile media and useful information.
 
 ## Disclamer
 
