@@ -7,7 +7,7 @@ const getIGUrl = (username = IG_username) => 'https://www.instagram.com/' + user
 
 /**
  * Scrape instagram profile media and more useful information.
- * @since      1.0.0.0
+ * @since      1.0.0
  * @access     public
  *
  * @param {string} username      Instagram profile username.
