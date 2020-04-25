@@ -23,7 +23,7 @@ note: there are some limitation of loading instagram data, but it still usefull 
 
 ```
 const IG = require("instagrammer");
-const instagramUsername = "AreYouKhaled";
+const instagramUsername = "AsdamPodcast";
 
 IG.profile(instagramUsername).then((data) => {
     const recentPost = data[0];
@@ -38,7 +38,7 @@ Example output response:
   "node": {
     "id": "2289200113878789071",
      "shortcode": "B_E31_3h2vP",
-     "dimensions": { height: 746, width: 480 },
+     "dimensions": { "height": 746, "width": 480 },
      "display_url":
       "https://scontent-hbe1-1.cdninstagram.com/v/t51.2885-15/e35/93603649_2611993775714054_5259993384970767717_n.jpg?_nc_ht=scontent-hbe1-1.cdninstagram.com&_nc_cat=102&_nc_ohc=jGCK60y7RwEAX8boRhD&oh=7844ea993f6f6888f5f3ff3fdbdc6fba&oe=5EA6D0E0",
      "gating_info": null,
@@ -46,15 +46,15 @@ Example output response:
      "fact_check_information": null,
      "media_preview":
       "ABsqrbh6j86XI9axYx3NaCK6A44A78Y/z+NAFo8Um4etRShiSoyRgencA1Txj/8AXQBFEhPYke1aDLtTazEKenH8z/8AWqJL4KMY/D/GmfbWkbDgFTxj/PegCfeQGAYkkD8hVINT1fbkDryM9gKqbjQBY8tP8n/61KQuABgY/Mn6/wAh0/Gm0UAAUDp3pNi0tFAH/9k=",
-     "owner": { id: "32593640820", username: "asdampodcast" },
+     "owner": { "id": "32593640820", "username": "asdampodcast" },
      "is_video": true,
      "accessibility_caption": null,
-     "edge_media_to_caption": { edges: [Array] },
-     "edge_media_to_comment": { count: 0 },
+     "edge_media_to_caption": { "edges": [Array] },
+     "edge_media_to_comment": { "count": 0 },
      "comments_disabled": false,
      "taken_at_timestamp": 1587114237,
-     "edge_liked_by": { count: 0 },
-     "edge_media_preview_like": { count: 0 },
+     "edge_liked_by": { "count": 0 },
+     "edge_media_preview_like": { "count": 0 },
      "location": null,
      "thumbnail_src":
       "https://scontent-hbe1-1.cdninstagram.com/v/t51.2885-15/e35/c0.133.480.480a/93603649_2611993775714054_5259993384970767717_n.jpg?_nc_ht=scontent-hbe1-1.cdninstagram.com&_nc_cat=102&_nc_ohc=jGCK60y7RwEAX8boRhD&oh=4b4cc5a6edeeef7111fbaa1b18952569&oe=5EA6DFD5",
