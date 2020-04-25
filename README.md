@@ -36,27 +36,68 @@ Example response:
 ```json
 {
   "node": {
-    "__typename": "GraphVideo",
-    "id": "2160733047815791400",
-    "edge_media_to_caption": { "edges": "[Array]" },
-    "shortcode": "B38d0JJgeMo",
-    "edge_media_to_comment": { "count": 0 },
-    "comments_disabled": false,
-    "taken_at_timestamp": 1571799483,
-    "dimensions": { "height": 750, "width": 750 },
-    "display_url": "https://instagram.fatz1-1.fna.fbcdn.net/vp/35ed460cf441f618ec9589d603dcc5ac/5DBC99DD/t51.2885-15/e35/71189504_708246012991109_3770380438181940072_n.jpg?_nc_ht=instagram.fatz1-1.fna.fbcdn.net&_nc_cat=105",
-    "edge_liked_by": { "count": 7 },
-    "edge_media_preview_like": { "count": 7 },
-    "location": null,
-    "gating_info": null,
-    "fact_check_information": null,
-    "media_preview": "ACoqjCU9Y6fx09alArpJIhHTvLqYCnYoAr+XR5dWKSgDCZixyetWYpmTIAz9ao55qUHnis7lF9J2Xr78U5bo555HoKpLJ16HPr/SlDAZp3AvG69vrUZvQD0qoGpN1O4FUHmng1COv41IOprMZIDS55pi0poEOBozTR0H0opgf//Z",
-    "owner": { "id": "6904471740", "username": "areyoukhaled" },
-    "thumbnail_src": "https://instagram.fatz1-1.fna.fbcdn.net/vp/e15e52adc7a8afc81d6678e072244509/5DBCAA38/t51.2885-15/sh0.08/e35/s640x640/71189504_708246012991109_3770380438181940072_n.jpg?_nc_ht=instagram.fatz1-1.fna.fbcdn.net&_nc_cat=105",
-    "thumbnail_resources": [[Object], [Object], [Object], [Object], [Object]],
-    "is_video": true,
-    "felix_profile_grid_crop": null,
-    "video_view_count": 34
+    "id": '2289200113878789071',
+     "shortcode": 'B_E31_3h2vP',
+     "dimensions": { height: 746, width: 480 },
+     "display_url":
+      "https://scontent-hbe1-1.cdninstagram.com/v/t51.2885-15/e35/93603649_2611993775714054_5259993384970767717_n.jpg?_nc_ht=scontent-hbe1-1.cdninstagram.com&_nc_cat=102&_nc_ohc=jGCK60y7RwEAX8boRhD&oh=7844ea993f6f6888f5f3ff3fdbdc6fba&oe=5EA6D0E0",
+     "gating_info": null,
+     "fact_check_overall_rating": null,
+     "fact_check_information": null,
+     "media_preview":
+      "ABsqrbh6j86XI9axYx3NaCK6A44A78Y/z+NAFo8Um4etRShiSoyRgencA1Txj/8AXQBFEhPYke1aDLtTazEKenH8z/8AWqJL4KMY/D/GmfbWkbDgFTxj/PegCfeQGAYkkD8hVINT1fbkDryM9gKqbjQBY8tP8n/61KQuABgY/Mn6/wAh0/Gm0UAAUDp3pNi0tFAH/9k=",
+     "owner": { id: '32593640820', username: 'asdampodcast' },
+     "is_video": true,
+     "accessibility_caption": null,
+     "edge_media_to_caption": { edges: [Array] },
+     "edge_media_to_comment": { count: 0 },
+     "comments_disabled": false,
+     "taken_at_timestamp": 1587114237,
+     "edge_liked_by": { count: 0 },
+     "edge_media_preview_like": { count: 0 },
+     "location": null,
+     "thumbnail_src":
+      "https://scontent-hbe1-1.cdninstagram.com/v/t51.2885-15/e35/c0.133.480.480a/93603649_2611993775714054_5259993384970767717_n.jpg?_nc_ht=scontent-hbe1-1.cdninstagram.com&_nc_cat=102&_nc_ohc=jGCK60y7RwEAX8boRhD&oh=4b4cc5a6edeeef7111fbaa1b18952569&oe=5EA6DFD5",
+     "thumbnail_resources": [ [Object], [Object], [Object], [Object], [Object] ],
+     "felix_profile_grid_crop": null,
+     "video_view_count": 9
   }
 }
+```
+
+### Get post comments
+
+```
+const IG = require('instagrammer');
+const post_id = 'B-oJxU9g0ST';
+
+IG.comments(post_id).then((data) => {
+    const recentPost = data[0];
+    console.log(recentPost);
+});
+```
+
+Example response:
+
+```json
+[ { "node":
+     { "id": '18018715516279713',
+       "text": '@asdampodcast',
+       "created_at": 1587829462,
+       "did_report_as_spam": false,
+       "owner": [Object],
+       "viewer_has_liked": false,
+       "edge_liked_by": [Object],
+       "is_restricted_pending": false,
+       "edge_threaded_comments": [Object] } },
+  { "node":
+     { "id": '17914398049420103',
+       "text": 'for git',
+       "created_at": 1587829582,
+       "did_report_as_spam": false,
+       "owner": [Object],
+       "viewer_has_liked": false,
+       "edge_liked_by": [Object],
+       "is_restricted_pending": false,
+       "edge_threaded_comments": [Object] } } ]
 ```
