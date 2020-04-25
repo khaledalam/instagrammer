@@ -35,7 +35,7 @@ module.exports.profile = async(username = IG_username) => {
 
 /**
  * Scrape instagram post comments.
- * @since      1.0.0
+ * @since      1.0.3
  * @access     public
  *
  * @param {string} post_id      Instagram post id.
