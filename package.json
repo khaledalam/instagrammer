@@ -33,6 +33,6 @@
     },
     "homepage": "https://github.com/khaledalam/instagrammer",
     "publishConfig": {
-        "registry": "https://npm.pkg.github.com/"
+        "registry": "https://npm.pkg.github.com/khaledalam"
     }
 }
