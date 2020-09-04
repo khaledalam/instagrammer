@@ -31,8 +31,5 @@
     "bugs": {
         "url": "https://github.com/khaledalam/instagrammer/issues"
     },
-    "homepage": "https://github.com/khaledalam/instagrammer",
-    "publishConfig": {
-        "registry": "https://npm.pkg.github.com/khaledalam"
-    }
+    "homepage": "https://github.com/khaledalam/instagrammer"
 }
