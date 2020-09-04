@@ -1,6 +1,6 @@
 {
     "name": "instagrammer",
-    "version": "1.0.8",
+    "version": "1.0.9",
     "description": "NodeJS module NPM package that helps to scrap and load instagram profile media, posts comments and more useful information.",
     "main": "index.js",
     "author": {
