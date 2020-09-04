@@ -101,3 +101,10 @@ Example output response:
        "is_restricted_pending": false,
        "edge_threaded_comments": [Object] } } ]
 ```
+
+### Get is postIsVideo
+
+### Get postCaption
+
+### Get postDimensions
+
