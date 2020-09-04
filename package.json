@@ -1,6 +1,6 @@
 {
     "name": "instagrammer",
-    "version": "1.0.9",
+    "version": "1.0.10",
     "description": "NodeJS module NPM package that helps to scrap and load instagram profile media, posts comments and more useful information.",
     "main": "index.js",
     "author": {
@@ -31,5 +31,6 @@
     "bugs": {
         "url": "https://github.com/khaledalam/instagrammer/issues"
     },
-    "homepage": "https://github.com/khaledalam/instagrammer"
+    "homepage": "https://github.com/khaledalam/instagrammer",
+    "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
