@@ -721,6 +721,8 @@ instagrammer.isCommentsDisabled(postId).then(res => console.log(JSON.stringify(r
 ```
 </p></details>
 
+<br><hr><br>
+
 ### takenTimestamp
 
 ```
