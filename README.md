@@ -10,6 +10,15 @@
 
 NodeJS module NPM package that helps to scrape and load instagram profile media and useful information.
 
+## Used by 5 <img src="https://mpng.subpng.com/20180330/avw/kisspng-computer-icons-person-clip-art-name-5abea9694a6aa0.8829806515224446493048.jpg" width="20">
+Repositories that depend on <a href="https://github.com/khaledalam/instagrammer">instagrammer</a>
+- [shidoitsuka / homies](https://github.com/shidoitsuka/homies)
+- [gabszzz / zork](https://github.com/gabszzz/zork)
+- [Horsgle / API-Scrap-Instagram](https://github.com/Horsgle/API-Scrap-Instagram)
+- [farisaziz12 / wod_with_faris_frontend](https://github.com/farisaziz12/wod_with_faris_frontend)
+- [arisaziz12 / vekho_frontend](https://github.com/farisaziz12/vekho_frontend)
+
+
 ## Disclamer
 
 Instagram has gone to great lengths to prevent scraping and other unauthorized access to their public content. This module is dependant on the markup the public-facing instagram.com. Should that change this module might also stop working as intended. It also only loads the 12 posts that are displayed on first-load without following pagination to load more images. You should take this into consideration when deciding whether this module will work for you.
