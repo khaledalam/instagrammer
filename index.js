@@ -9,6 +9,27 @@ const getIGUrl = (username = username) => 'https://www.instagram.com/' + usernam
 const getPOSTUrl = (postId = postId) => 'https://www.instagram.com/p/' + postId + '/?__a=1';
 const errorMessage = 'Cannot detect option';
 
+
+/**
+ * Scrape instagram profile picture url.
+ * @since      1.0.11
+ * @access     public
+ *
+ * @param {string} username      Instagram profile username.
+ */
+const profilePicture = async(username = username) => {
+
+    try {
+        const response = await axios.get(getIGUrl(username));
+
+        return response.data.graphql.user.profile_pic_url || errorMessage;
+
+    } catch (error) {
+        console.error('instagrammer_profile_picture', error);
+        return error;
+    }
+}
+
 /**
  * Scrape instagram profile media and more useful information.
  * @since      1.0.0
@@ -173,7 +194,6 @@ const takenTimestamp = async(postId = postId) => {
 
 
 
-
 module.exports = {
     profile,
     postComments,
@@ -183,4 +203,5 @@ module.exports = {
     isCaptionEdited,
     isCommentsDisabled,
     takenTimestamp,
+    profilePicture
 };

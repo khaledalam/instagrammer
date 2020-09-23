@@ -10,8 +10,7 @@
 
 NodeJS module NPM package that helps to scrape and load instagram profile media and useful information.
 
-## Used by 5 <img src="https://mpng.subpng.com/20180330/avw/kisspng-computer-icons-person-clip-art-name-5abea9694a6aa0.8829806515224446493048.jpg" width="20">
-Repositories that depend on <a href="https://github.com/khaledalam/instagrammer">instagrammer</a>
+## 5 <img src="https://mpng.subpng.com/20180330/avw/kisspng-computer-icons-person-clip-art-name-5abea9694a6aa0.8829806515224446493048.jpg" width="15">  Repositories that depend on <a href="https://github.com/khaledalam/instagrammer">instagrammer</a> 
 - [shidoitsuka / homies](https://github.com/shidoitsuka/homies)
 - [gabszzz / zork](https://github.com/gabszzz/zork)
 - [Horsgle / API-Scrap-Instagram](https://github.com/Horsgle/API-Scrap-Instagram)
@@ -35,6 +34,26 @@ Instagram has gone to great lengths to prevent scraping and other unauthorized a
 ## Usage:
 <br>
 
+
+### Profile Picture Url:
+
+```
+const instagrammer = require("instagrammer");
+const username = 'instagram';
+
+instagrammer.profilePicture(username).then(res => console.log(JSON.stringify(res)));
+```
+
+<details><summary>Example output response</summary><p>
+
+```json
+{
+   "https://scontent-hbe1-1.cdninstagram.com/v/t51.2885-19/s150x150/119381356_363756831450146_3008355575418576013_n.jpg?_nc_ht=scontent-hbe1-1.cdninstagram.com&_nc_ohc=BMpoCdJah2YAX-S235E&oh=a3b3c783b0e08cacd9c93cd1ce68a42e&oe=5F939876"
+}
+```
+</p></details>
+
+<br><hr><br>
 
 ### Recent Profile Posts:
 
