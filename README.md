@@ -10,13 +10,13 @@
 
 NodeJS module NPM package that helps to scrape and load instagram profile media and useful information.
 
-## 5 <img src="https://mpng.subpng.com/20180330/avw/kisspng-computer-icons-person-clip-art-name-5abea9694a6aa0.8829806515224446493048.jpg" width="15">  Repositories that depend on <a href="https://github.com/khaledalam/instagrammer">instagrammer</a> 
+## 6 <img src="https://mpng.subpng.com/20180330/avw/kisspng-computer-icons-person-clip-art-name-5abea9694a6aa0.8829806515224446493048.jpg" width="15">  Repositories that depend on <a href="https://github.com/khaledalam/instagrammer">instagrammer</a> 
 - [shidoitsuka / homies](https://github.com/shidoitsuka/homies)
 - [gabszzz / zork](https://github.com/gabszzz/zork)
 - [Horsgle / API-Scrap-Instagram](https://github.com/Horsgle/API-Scrap-Instagram)
 - [farisaziz12 / wod_with_faris_frontend](https://github.com/farisaziz12/wod_with_faris_frontend)
 - [arisaziz12 / vekho_frontend](https://github.com/farisaziz12/vekho_frontend)
-
+- [iamjmitch / NaomiEldredv2](https://github.com/iamjmitch/NaomiEldredv2)
 
 ## Disclamer
 
