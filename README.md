@@ -10,7 +10,14 @@
 
 NodeJS module NPM package that helps to scrape and load instagram profile media and useful information.
 
-## Disclamer
+## Disclaimer 1
+
+This package was created in 2019 and was depending on `?__a=1`, at that time instagram allows the usage of `/?__a=1&is_video=true` but now instagram no longer allows this and also not allows fetch profiles info without auth session.<br />Maybe in the future I will implement a scrapping-based solution for this package.
+
+<img src="./ai_profile_pic_ig.jpg">
+
+
+## Disclaimer 2
 
 Instagram has gone to great lengths to prevent scraping and other unauthorized access to their public content. This module is dependant on the markup the public-facing instagram.com. Should that change this module might also stop working as intended. It also only loads the 12 posts that are displayed on first-load without following pagination to load more images. You should take this into consideration when deciding whether this module will work for you.
 <br>note: there are some limitation of loading instagram data, but it still usefull in most cases :)
